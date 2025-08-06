@@ -1,0 +1,9 @@
+
+{
+  "name": "EduGenie: Your AI Study Partner",
+  "description": "A modern, AI-powered study partner to help students solve questions, learn faster, and enjoy the process through interactive features and personalized assistance. Input questions via text, photo, or voice and receive step-by-step solutions.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

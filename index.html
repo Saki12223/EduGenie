@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduGenie: Your AI Study Partner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Poppins', 'sans-serif'],
+            },
+            colors: {
+              'sky-blue': {
+                '100': '#E0F2FE',
+                '200': '#BAE6FD',
+                '300': '#7DD3FC',
+                '400': '#38BDF8',
+                '500': '#0EA5E9',
+                '600': '#0284C7',
+              },
+              'lavender': {
+                '100': '#EDE9FE',
+                '200': '#DDD6FE',
+                '300': '#C4B5FD',
+                '400': '#A78BFA',
+                '500': '#8B5CF6',
+                '600': '#7C3AED',
+              },
+              'navy': {
+                '800': '#1E293B',
+                '900': '#0F172A',
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      .perspective-1000 { perspective: 1000px; }
+      .transform-style-preserve-3d { transform-style: preserve-3d; }
+      .rotate-y-180 { transform: rotateY(180deg); }
+      .backface-hidden { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.12.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="antialiased font-sans">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
